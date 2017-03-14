@@ -1,4 +1,5 @@
-#include <stdio.h>
+/* Insertion Sort
+ * */
 
 void insertion_sort_1(int arr[], int len)
 {
@@ -25,15 +26,5 @@ void insertion_sort_2(int arr[], int len) {
             j--;
         }
         arr[j] = key;
-    }
-}
-
-int main() {
-    int xs[] = {6,4,2,5,2,3,5,1,1,4};
-
-    insertion_sort_1(xs, 10);
-
-    for (int i = 0; i < 10; i++) {
-        printf("%d ", xs[i]);
     }
 }
